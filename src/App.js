@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import { Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Welcome from "./Components/welcome/Welcome";
 import Navigation from "./Components/navigation/Navigation";
 import Error from "./Components/404/error";
 import Home from "./Components/Home/Home";
+
+
 
 class App extends Component {
   render() {
